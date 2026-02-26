@@ -1,0 +1,88 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 8,
+      "minecraft:time_since_rest": 45801,
+      "minecraft:walk_one_cm": 148619,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 3998,
+      "minecraft:damage_taken": 25,
+      "minecraft:play_time": 45801,
+      "minecraft:damage_dealt": 91,
+      "minecraft:jump": 374,
+      "minecraft:time_since_death": 45801,
+      "minecraft:open_barrel": 5,
+      "minecraft:interact_with_furnace": 1,
+      "minecraft:sprint_one_cm": 27028,
+      "minecraft:open_chest": 36,
+      "minecraft:interact_with_smithing_table": 1,
+      "minecraft:fall_one_cm": 1325,
+      "waystones:waystone_activated": 2,
+      "minecraft:total_world_time": 45801,
+      "minecraft:swim_one_cm": 7825,
+      "minecraft:fly_one_cm": 32820,
+      "minecraft:walk_on_water_one_cm": 7987,
+      "minecraft:crouch_one_cm": 188,
+      "minecraft:sneak_time": 210
+    },
+    "minecraft:used": {
+      "minecraft:stone_axe": 28,
+      "minecraft:birch_sapling": 2,
+      "minecraft:stone_sword": 2,
+      "minecraft:crafting_table": 2,
+      "minecraft:torch": 18,
+      "minecraft:bread": 1,
+      "minecraft:stone_pickaxe": 393,
+      "minecraft:coarse_dirt": 1,
+      "minecraft:cobblestone": 5
+    },
+    "minecraft:crafted": {
+      "minecraft:torch": 60,
+      "minecraft:stone_sword": 1,
+      "minecraft:stick": 24,
+      "minecraft:stone_axe": 1,
+      "minecraft:spruce_planks": 64,
+      "minecraft:bread": 12,
+      "minecraft:stone_pickaxe": 3,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:mined": {
+      "minecraft:torch": 3,
+      "minecraft:wall_torch": 2,
+      "minecraft:birch_sapling": 1,
+      "minecraft:dirt": 1,
+      "minecraft:crafting_table": 2,
+      "minecraft:birch_log": 7,
+      "minecraft:birch_leaves": 35,
+      "minecraft:coal_ore": 40,
+      "minecraft:coarse_dirt": 1,
+      "minecraft:iron_ore": 6,
+      "minecraft:stone": 346
+    },
+    "minecraft:picked_up": {
+      "minecraft:spruce_planks": 35,
+      "minecraft:dirt": 1,
+      "minecraft:birch_sapling": 2,
+      "minecraft:stick": 6,
+      "minecraft:cobblestone": 352,
+      "minecraft:coarse_dirt": 1,
+      "minecraft:bow": 1,
+      "minecraft:crafting_table": 2,
+      "minecraft:bone": 14,
+      "minecraft:torch": 5,
+      "minecraft:bread": 3,
+      "minecraft:raw_iron": 6,
+      "minecraft:spruce_log": 60,
+      "minecraft:coal": 39,
+      "minecraft:stone_pickaxe": 4,
+      "minecraft:snow_block": 9,
+      "minecraft:furnace": 2,
+      "minecraft:birch_log": 7,
+      "minecraft:spruce_trapdoor": 16
+    },
+    "minecraft:broken": {
+      "minecraft:stone_pickaxe": 3
+    }
+  },
+  "DataVersion": 4671
+}
