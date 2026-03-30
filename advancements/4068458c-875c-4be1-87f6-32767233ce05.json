@@ -31,6 +31,7 @@
       "minecraft:mushroom_fields": "2026-02-26 03:11:39 -0500",
       "minecraft:forest": "2026-02-24 21:31:09 -0500",
       "minecraft:taiga": "2026-02-24 21:29:08 -0500",
+      "minecraft:lush_caves": "2026-03-23 23:35:43 -0400",
       "minecraft:ice_spikes": "2026-02-24 20:28:45 -0500",
       "minecraft:frozen_ocean": "2026-02-09 14:45:00 -0500",
       "minecraft:frozen_river": "2026-02-24 19:29:41 -0500",
@@ -53,13 +54,15 @@
       "minecraft:stony_shore": "2026-02-24 19:57:51 -0500",
       "minecraft:snowy_taiga": "2026-02-16 17:53:37 -0500",
       "minecraft:dripstone_caves": "2026-02-24 20:28:11 -0500",
+      "minecraft:frozen_peaks": "2026-03-24 00:24:08 -0400",
       "minecraft:old_growth_birch_forest": "2026-02-24 23:44:11 -0500",
       "minecraft:deep_dark": "2026-02-24 20:28:17 -0500",
       "minecraft:grove": "2026-02-24 20:27:48 -0500",
       "minecraft:swamp": "2026-02-24 21:34:20 -0500",
       "minecraft:meadow": "2026-02-24 22:25:07 -0500",
       "minecraft:plains": "2026-02-24 20:30:42 -0500",
-      "minecraft:jagged_peaks": "2026-02-24 21:27:38 -0500"
+      "minecraft:jagged_peaks": "2026-02-24 21:27:38 -0500",
+      "minecraft:pale_garden": "2026-03-23 23:41:10 -0400"
     },
     "done": false
   },
@@ -901,6 +904,7 @@
       "minecraft:ghast": "2026-03-08 00:59:21 -0500",
       "minecraft:hoglin": "2026-03-08 03:04:47 -0400",
       "minecraft:piglin": "2026-02-25 22:59:55 -0500",
+      "minecraft:vindicator": "2026-03-23 23:54:52 -0400",
       "minecraft:magma_cube": "2026-03-08 03:18:20 -0400",
       "minecraft:spider": "2026-02-16 17:01:07 -0500",
       "minecraft:zombie": "2026-02-09 14:57:34 -0500",
@@ -3477,27 +3481,9 @@
     },
     "done": true
   },
-  "minecraft:nether/obtain_crying_obsidian": {
-    "criteria": {
-      "crying_obsidian": "2026-03-08 01:10:28 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/magma_block": {
-    "criteria": {
-      "has_magma_cream": "2026-03-08 01:03:46 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/magenta_harness": {
     "criteria": {
       "has_dried_ghast": "2026-03-08 00:57:29 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/book": {
-    "criteria": {
-      "has_paper": "2026-03-08 01:04:03 -0500"
     },
     "done": true
   },
@@ -3507,111 +3493,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
-    "criteria": {
-      "has_netherite_upgrade_smithing_template": "2026-03-08 03:19:36 -0400"
-    },
-    "done": true
-  },
-  "waystones:recipes/decorations/return_scroll": {
-    "criteria": {
-      "has_paper": "2026-03-08 01:04:03 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
-    "criteria": {
-      "has_ancient_debris": "2026-03-08 01:11:04 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bowl": {
-    "criteria": {
-      "has_brown_mushroom": "2026-03-08 03:19:47 -0400"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_blaze_rod": {
-    "criteria": {
-      "blaze_rod": "2026-03-08 03:12:57 -0400"
-    },
-    "done": true
-  },
-  "minecraft:adventure/shoot_arrow": {
-    "criteria": {
-      "shot_arrow": "2026-03-08 00:59:05 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/nether_brick_stairs": {
-    "criteria": {
-      "has_nether_bricks": "2026-03-08 03:07:42 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/nether_brick_slab": {
-    "criteria": {
-      "has_nether_bricks": "2026-03-08 03:07:42 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/nether_wart_block": {
-    "criteria": {
-      "has_nether_wart": "2026-03-08 03:07:18 -0400"
-    },
-    "done": true
-  },
-  "master_cutter:recipes/stone/nether_bricks": {
-    "criteria": {
-      "requirement": "2026-03-08 03:07:42 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_scrap": {
-    "criteria": {
-      "has_ancient_debris": "2026-03-08 01:11:04 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/red_harness": {
     "criteria": {
       "has_dried_ghast": "2026-03-08 00:57:29 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
-    "criteria": {
-      "has_porkchop": "2026-03-08 03:04:48 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
-    "criteria": {
-      "has_nether_bricks": "2026-03-08 03:07:42 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/green_harness": {
     "criteria": {
       "has_dried_ghast": "2026-03-08 00:57:29 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_ingot": {
-    "criteria": {
-      "has_netherite_scrap": "2026-03-08 03:19:44 -0400"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_ancient_debris": {
-    "criteria": {
-      "ancient_debris": "2026-03-08 01:11:04 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bone_meal_from_bone_block": {
-    "criteria": {
-      "has_bone_block": "2026-03-08 01:01:25 -0500"
     },
     "done": true
   },
@@ -3627,24 +3517,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/red_nether_bricks": {
-    "criteria": {
-      "has_nether_wart": "2026-03-08 03:07:18 -0400"
-    },
-    "done": true
-  },
-  "master_cutter:recipes/metal/iron": {
-    "criteria": {
-      "requirement": "2026-03-08 03:19:34 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/nether_brick_fence": {
-    "criteria": {
-      "has_nether_bricks": "2026-03-08 03:07:42 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/light_gray_harness": {
     "criteria": {
       "has_dried_ghast": "2026-03-08 00:57:29 -0500"
@@ -3657,27 +3529,9 @@
     },
     "done": true
   },
-  "minecraft:husbandry/place_dried_ghast_in_water": {
-    "criteria": {
-      "place_dried_ghast_in_water": "2026-03-08 03:26:18 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
-    "criteria": {
-      "has_nether_bricks": "2026-03-08 03:07:42 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/black_harness": {
     "criteria": {
       "has_dried_ghast": "2026-03-08 00:57:29 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop": {
-    "criteria": {
-      "has_porkchop": "2026-03-08 03:04:48 -0400"
     },
     "done": true
   },
@@ -3687,21 +3541,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/respawn_anchor": {
-    "criteria": {
-      "has_obsidian": "2026-03-08 01:10:28 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/orange_harness": {
     "criteria": {
       "has_dried_ghast": "2026-03-08 00:57:29 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
-    "criteria": {
-      "has_nether_bricks": "2026-03-08 03:07:42 -0400"
     },
     "done": true
   },
@@ -3711,105 +3553,15 @@
     },
     "done": true
   },
-  "minecraft:nether/loot_bastion": {
-    "criteria": {
-      "loot_bastion_hoglin_stable": "2026-03-08 01:09:12 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
-    "criteria": {
-      "has_iron_block": "2026-03-08 03:19:34 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_lamp": {
-    "criteria": {
-      "has_glowstone": "2026-03-08 01:09:20 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/cyan_harness": {
     "criteria": {
       "has_dried_ghast": "2026-03-08 00:57:29 -0500"
     },
     "done": true
   },
-  "minecraft:smithing/disenchanter": {
-    "criteria": {
-      "disenchant_item": "2026-03-08 03:35:53 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
-    "criteria": {
-      "has_nether_bricks": "2026-03-08 03:07:42 -0400"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/blaze": {
-    "criteria": {
-      "has_blaze_rod": "2026-03-08 03:12:57 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/blaze_powder": {
-    "criteria": {
-      "has_blaze_rod": "2026-03-08 03:12:57 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/brown_harness": {
     "criteria": {
       "has_dried_ghast": "2026-03-08 00:57:29 -0500"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/magma_cube": {
-    "criteria": {
-      "has_magma_cream": "2026-03-08 01:03:46 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cartography_table": {
-    "criteria": {
-      "has_paper": "2026-03-08 01:04:03 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
-    "criteria": {
-      "has_porkchop": "2026-03-08 03:04:48 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
-    "criteria": {
-      "has_nether_bricks": "2026-03-08 03:07:42 -0400"
-    },
-    "done": true
-  },
-  "waystones:recipes/decorations/blank_scroll": {
-    "criteria": {
-      "has_paper": "2026-03-08 01:04:03 -0500"
-    },
-    "done": true
-  },
-  "minecraft:nether/find_bastion": {
-    "criteria": {
-      "bastion": "2026-03-08 01:08:45 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/nether_brick_wall": {
-    "criteria": {
-      "has_nether_bricks": "2026-03-08 03:07:42 -0400"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/nether": {
-    "criteria": {
-      "has_nether_wart": "2026-03-08 03:07:18 -0400"
     },
     "done": true
   },
@@ -3825,15 +3577,105 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/anvil": {
+  "minecraft:adventure/shoot_arrow": {
     "criteria": {
-      "has_iron_block": "2026-03-08 03:19:34 -0400"
+      "shot_arrow": "2026-03-08 00:59:05 -0500"
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/pig": {
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
     "criteria": {
-      "has_porkchop": "2026-03-08 03:04:48 -0400"
+      "has_bone_block": "2026-03-08 01:01:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2026-03-08 01:02:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2026-03-08 01:03:46 -0500"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/magma_cube": {
+    "criteria": {
+      "has_magma_cream": "2026-03-08 01:03:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2026-03-08 01:04:03 -0500"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/return_scroll": {
+    "criteria": {
+      "has_paper": "2026-03-08 01:04:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2026-03-08 01:04:03 -0500"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/blank_scroll": {
+    "criteria": {
+      "has_paper": "2026-03-08 01:04:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2026-03-08 01:08:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_hoglin_stable": "2026-03-08 01:09:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2026-03-08 01:09:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2026-03-08 01:10:28 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2026-03-08 01:10:28 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2026-03-08 01:11:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2026-03-08 01:11:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2026-03-08 01:11:04 -0500"
     },
     "done": true
   },
@@ -3843,15 +3685,327 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2026-03-08 03:04:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2026-03-08 03:04:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2026-03-08 03:04:48 -0400"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/pig": {
+    "criteria": {
+      "has_porkchop": "2026-03-08 03:04:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2026-03-08 03:07:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2026-03-08 03:07:18 -0400"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/nether": {
+    "criteria": {
+      "has_nether_wart": "2026-03-08 03:07:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2026-03-08 03:07:42 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2026-03-08 03:07:42 -0400"
+    },
+    "done": true
+  },
+  "master_cutter:recipes/stone/nether_bricks": {
+    "criteria": {
+      "requirement": "2026-03-08 03:07:42 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2026-03-08 03:07:42 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2026-03-08 03:07:42 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2026-03-08 03:07:42 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2026-03-08 03:07:42 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2026-03-08 03:07:42 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2026-03-08 03:07:42 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2026-03-08 03:07:42 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2026-03-08 03:12:57 -0400"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/blaze": {
+    "criteria": {
+      "has_blaze_rod": "2026-03-08 03:12:57 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2026-03-08 03:12:57 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/brewing_stand": {
     "criteria": {
       "has_blaze_rod": "2026-03-08 03:12:57 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+  "master_cutter:recipes/metal/iron": {
     "criteria": {
-      "has_iron_nugget": "2026-03-08 01:02:09 -0500"
+      "requirement": "2026-03-08 03:19:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2026-03-08 03:19:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2026-03-08 03:19:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2026-03-08 03:19:36 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2026-03-08 03:19:44 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2026-03-08 03:19:47 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/place_dried_ghast_in_water": {
+    "criteria": {
+      "place_dried_ghast_in_water": "2026-03-08 03:26:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:smithing/disenchanter": {
+    "criteria": {
+      "disenchant_item": "2026-03-08 03:35:53 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_chiseled_copper_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_chiseled_copper": "2026-03-21 01:48:51 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2026-03-23 01:42:25 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crafter": {
+    "criteria": {
+      "has_dropper": "2026-03-23 02:20:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2026-03-23 02:22:40 -0400"
+    },
+    "done": true
+  },
+  "minecraft:smithing/root": {
+    "criteria": {
+      "anvil": "2026-03-23 02:44:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:smithing/booksmith_blackworm": {
+    "criteria": {
+      "anvil_enchant_combine": "2026-03-23 03:11:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "criteria": {
+      "netherite_hoe": "2026-03-23 03:24:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2026-03-23 03:27:45 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2026-03-23 03:40:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2026-03-23 03:40:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2026-03-23 03:40:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-03-23 23:45:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-03-23 23:45:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2026-03-23 23:45:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2026-03-23 23:45:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-03-23 23:45:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2026-03-23 23:45:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2026-03-23 23:45:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2026-03-23 23:45:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2026-03-23 23:45:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/resin_brick": {
+    "criteria": {
+      "has_resin_clump": "2026-03-23 23:46:07 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/resin_block": {
+    "criteria": {
+      "has_resin_clump": "2026-03-23 23:46:07 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-03-23 23:46:10 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template": {
+    "criteria": {
+      "has_vex_armor_trim_smithing_template": "2026-03-23 23:46:10 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2026-03-27 03:05:01 -0400"
     },
     "done": true
   },
