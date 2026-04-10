@@ -34,6 +34,7 @@
       "minecraft:lush_caves": "2026-03-23 23:35:43 -0400",
       "minecraft:ice_spikes": "2026-02-24 20:28:45 -0500",
       "minecraft:frozen_ocean": "2026-02-09 14:45:00 -0500",
+      "minecraft:desert": "2026-04-02 16:55:27 -0400",
       "minecraft:frozen_river": "2026-02-24 19:29:41 -0500",
       "minecraft:deep_frozen_ocean": "2026-02-09 15:29:27 -0500",
       "minecraft:windswept_forest": "2026-02-24 23:43:58 -0500",
@@ -45,6 +46,8 @@
       "minecraft:old_growth_spruce_taiga": "2026-02-24 21:34:23 -0500",
       "minecraft:snowy_beach": "2026-02-09 14:14:06 -0500",
       "minecraft:bamboo_jungle": "2026-02-24 23:46:17 -0500",
+      "minecraft:wooded_badlands": "2026-04-02 16:56:18 -0400",
+      "minecraft:badlands": "2026-04-02 16:54:57 -0400",
       "minecraft:flower_forest": "2026-02-24 21:44:10 -0500",
       "minecraft:beach": "2026-02-24 21:33:51 -0500",
       "minecraft:dark_forest": "2026-02-24 21:35:57 -0500",
@@ -4006,6 +4009,30 @@
   "minecraft:story/follow_ender_eye": {
     "criteria": {
       "in_stronghold": "2026-03-27 03:05:01 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_glazed_terracotta": {
+    "criteria": {
+      "has_brown_terracotta": "2026-04-02 17:14:02 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2026-04-02 17:14:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2026-04-02 17:14:08 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_glazed_terracotta": {
+    "criteria": {
+      "has_red_terracotta": "2026-04-02 17:14:31 -0400"
     },
     "done": true
   },
